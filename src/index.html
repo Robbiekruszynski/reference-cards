@@ -1,11 +1,716 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script type="text/javascript" src="bundle.js"></script>
-  <title>webpack-template-v5</title>
-</head>
-<body>
-  <h1>Hello World</h1>
-</body>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+
+
+    <title>Javascript Flashcards</title>
+  </head>
+  <body>
+
+    <div class="container-fluid">
+      <!-- ******* BEGIN JUMBOTRON ********* -->
+      <div class="jumbotron">
+        <h1>Javascript Flashcards</h1>
+        <!-- <div class="button-row">
+          <button type="button" name="button" id="showAll"class="btn-primary">Show Definitions</button>
+          <button class="btn-info" type="button" name="button" id="hideAll">Hide Definitions</button>
+        </div> -->
+      </div>
+      <!-- ******* END JUMBOTRON ********* -->
+
+      <div class="flashcard-content">
+
+        <!-- ********* ALERT *********** -->
+
+          <div class="flashcard">
+
+            <div id="alert-question-front-1" class="panel question-front">
+               <h2>Question 1</h2>
+            </div>
+
+            <div id="question-1" class="panel question" >
+              <p>A dialog boxes can be used to raise or get confirmation on any input or to have a kind of input from the users.</p>
+                <p>Is this an example of an Alert?</p>
+                  <form class="form" id="question-alert">
+                    <input id="alert-true" type="radio" class="radio" name="alert" value="true"> <label for="alert-true" >True</label><br>
+                    <input id="alert-false" type="radio" class="radio" name="alert" value="false"> <label for="alert-false">False</label><br>
+                    <button type="submit" class="submit"> submit</button>
+                </form>
+            </div>
+
+            </form>
+        </div>
+
+        <div class="flashcard">
+
+          <div id="alert-question-front-2" class="panel question-front">
+             <h2>Question 2</h2>
+          </div>
+
+          <div id="question-2" class="panel question" >
+            <p>A dialog boxes can be used to raise or get confirmation on any input or to have a kind of input from the users.</p>
+              <p>Is this an example of an Alert?</p>
+                <form class="form" id="question-alert">
+                  <input id="alert-true" type="radio" class="radio" name="alert" value="true"> <label for="alert-true" >True</label><br>
+                  <input id="alert-false" type="radio" class="radio" name="alert" value="false"> <label for="alert-false">False</label><br>
+                  <button type="submit" class="submit"> submit</button>
+              </form>
+          </div>
+
+          </form>
+      </div>
+
+      <div class="flashcard">
+
+        <div id="alert-question-front-3" class="panel question-front">
+           <h2>Question 3</h2>
+        </div>
+
+        <div id="question-3" class="panel question" >
+          <p>A dialog boxes can be used to raise or get confirmation on any input or to have a kind of input from the users.</p>
+            <p>Is this an example of an Alert?</p>
+              <form class="form" id="question-alert">
+                <input id="alert-true" type="radio" class="radio" name="alert" value="true"> <label for="alert-true" >True</label><br>
+                <input id="alert-false" type="radio" class="radio" name="alert" value="false"> <label for="alert-false">False</label><br>
+                <button type="submit" class="submit"> submit</button>
+            </form>
+        </div>
+
+        </form>
+    </div>
+
+    <div class="flashcard">
+
+      <div id="alert-question-front" class="panel question-front">
+         <h2>Question 4</h2>
+      </div>
+
+      <div id="question-4" class="panel question" >
+        <h4>A dialog boxes can be used to raise or get confirmation on any input or to have a kind of input from the users.</h4>
+          <h4>Is this an example of an Alert?</h4>
+            <form class="form" id="question-alert">
+              <input id="alert-true" type="radio" class="radio" name="alert" value="true"> <label for="alert-true" >True</label><br>
+              <input id="alert-false" type="radio" class="radio" name="alert" value="false"> <label for="alert-false">False</label><br>
+              <button type="submit" class="submit"> submit</button>
+          </form>
+      </div>
+
+      </form>
+  </div>
+
+  <div class="flashcard">
+
+    <div id="alert-question-front" class="panel question-front">
+       <h2>Question 5</h2>
+    </div>
+
+    <div id="question-5" class="panel question" >
+      <h4>A dialog boxes can be used to raise or get confirmation on any input or to have a kind of input from the users.</h4>
+        <h4>Is this an example of an Alert?</h4>
+          <form class="form" id="question-alert">
+            <input id="alert-true" type="radio" class="radio" name="alert" value="true"> <label for="alert-true" >True</label><br>
+            <input id="alert-false" type="radio" class="radio" name="alert" value="false"> <label for="alert-false">False</label><br>
+            <button type="submit" class="submit"> submit</button>
+        </form>
+    </div>
+
+    </form>
+</div>
+
+<div class="flashcard">
+
+  <div id="alert-question-front" class="panel question-front">
+     <h2>Question 6</h2>
+  </div>
+
+  <div id="question-6" class="panel question" >
+    <h4>A dialog boxes can be used to raise or get confirmation on any input or to have a kind of input from the users.</h4>
+      <h4>Is this an example of an Alert?</h4>
+        <form class="form" id="question-alert">
+          <input id="alert-true" type="radio" class="radio" name="alert" value="true"> <label for="alert-true" >True</label><br>
+          <input id="alert-false" type="radio" class="radio" name="alert" value="false"> <label for="alert-false">False</label><br>
+          <button type="submit" class="submit"> submit</button>
+      </form>
+  </div>
+
+  </form>
+</div>
+
+<div class="flashcard">
+
+  <div id="alert-question-front" class="panel question-front">
+     <h2>Question 7</h2>
+  </div>
+
+  <div id="question-7" class="panel question" >
+    <h4>A dialog boxes can be used to raise or get confirmation on any input or to have a kind of input from the users.</h4>
+      <h4>Is this an example of an Alert?</h4>
+        <form class="form" id="question-alert">
+          <input id="alert-true" type="radio" class="radio" name="alert" value="true"> <label for="alert-true" >True</label><br>
+          <input id="alert-false" type="radio" class="radio" name="alert" value="false"> <label for="alert-false">False</label><br>
+          <button type="submit" class="submit"> submit</button>
+      </form>
+  </div>
+
+  </form>
+</div>
+
+<div class="flashcard">
+
+  <div id="alert-question-front" class="panel question-front">
+     <h2>Question 8</h2>
+  </div>
+
+  <div id="question-8" class="panel question" >
+    <h4>A dialog boxes can be used to raise or get confirmation on any input or to have a kind of input from the users.</h4>
+      <h4>Is this an example of an Alert?</h4>
+        <form class="form" id="question-alert">
+          <input id="alert-true" type="radio" class="radio" name="alert" value="true"> <label for="alert-true" >True</label><br>
+          <input id="alert-false" type="radio" class="radio" name="alert" value="false"> <label for="alert-false">False</label><br>
+          <button type="submit" class="submit"> submit</button>
+      </form>
+  </div>
+
+  </form>
+</div>
+
+<div class="flashcard">
+
+  <div id="alert-question-front" class="panel question-front">
+     <h2>Question 9</h2>
+  </div>
+
+  <div id="question-9" class="panel question" >
+    <h4>A dialog boxes can be used to raise or get confirmation on any input or to have a kind of input from the users.</h4>
+      <h4>Is this an example of an Alert?</h4>
+        <form class="form" id="question-alert">
+          <input id="alert-true" type="radio" class="radio" name="alert" value="true"> <label for="alert-true" >True</label><br>
+          <input id="alert-false" type="radio" class="radio" name="alert" value="false"> <label for="alert-false">False</label><br>
+          <button type="submit" class="submit"> submit</button>
+      </form>
+  </div>
+
+  </form>
+</div>
+
+<div class="flashcard">
+
+  <div id="alert-question-front" class="panel question-front">
+     <h2>Question 10</h2>
+  </div>
+
+  <div id="question-10" class="panel question" >
+    <h4>A dialog boxes can be used to raise or get confirmation on any input or to have a kind of input from the users.</h4>
+      <h4>Is this an example of an Alert?</h4>
+        <form class="form" id="question-alert">
+          <input id="alert-true" type="radio" class="radio" name="alert" value="true"> <label for="alert-true" >True</label><br>
+          <input id="alert-false" type="radio" class="radio" name="alert" value="false"> <label for="alert-false">False</label><br>
+          <button type="submit" class="submit"> submit</button>
+      </form>
+  </div>
+
+  </form>
+</div>
+
+<div class="flashcard">
+
+  <div id="alert-question-front" class="panel question-front">
+     <h2>Question 11</h2>
+  </div>
+
+  <div id="question-11" class="panel question" >
+    <h4>A dialog boxes can be used to raise or get confirmation on any input or to have a kind of input from the users.</h4>
+      <h4>Is this an example of an Alert?</h4>
+        <form class="form" id="question-alert">
+          <input id="alert-true" type="radio" class="radio" name="alert" value="true"> <label for="alert-true" >True</label><br>
+          <input id="alert-false" type="radio" class="radio" name="alert" value="false"> <label for="alert-false">False</label><br>
+          <button type="submit" class="submit"> submit</button>
+      </form>
+  </div>
+
+  </form>
+</div>
+
+<div class="flashcard">
+
+  <div id="alert-question-front" class="panel question-front">
+     <h2>Question 12</h2>
+  </div>
+
+  <div id="question-12" class="panel question" >
+    <h4>A dialog boxes can be used to raise or get confirmation on any input or to have a kind of input from the users.</h4>
+      <h4>Is this an example of an Alert?</h4>
+        <form class="form" id="question-alert">
+          <input id="alert-true" type="radio" class="radio" name="alert" value="true"> <label for="alert-true" >True</label><br>
+          <input id="alert-false" type="radio" class="radio" name="alert" value="false"> <label for="alert-false">False</label><br>
+          <button type="submit" class="submit"> submit</button>
+      </form>
+  </div>
+
+  </form>
+</div>
+
+<div class="flashcard">
+
+  <div id="alert-question-front" class="panel question-front">
+     <h2>Question 13</h2>
+  </div>
+
+  <div id="question-13" class="panel question" >
+    <h4>A dialog boxes can be used to raise or get confirmation on any input or to have a kind of input from the users.</h4>
+      <h4>Is this an example of an Alert?</h4>
+        <form class="form" id="question-alert">
+          <input id="alert-true" type="radio" class="radio" name="alert" value="true"> <label for="alert-true" >True</label><br>
+          <input id="alert-false" type="radio" class="radio" name="alert" value="false"> <label for="alert-false">False</label><br>
+          <button type="submit" class="submit"> submit</button>
+      </form>
+  </div>
+
+  </form>
+</div>
+
+<div class="flashcard">
+
+  <div id="alert-question-front" class="panel question-front">
+     <h2>Question 14</h2>
+  </div>
+
+  <div id="question-14" class="panel question" >
+    <h4>A dialog boxes can be used to raise or get confirmation on any input or to have a kind of input from the users.</h4>
+      <h4>Is this an example of an Alert?</h4>
+        <form class="form" id="question-alert">
+          <input id="alert-true" type="radio" class="radio" name="alert" value="true"> <label for="alert-true" >True</label><br>
+          <input id="alert-false" type="radio" class="radio" name="alert" value="false"> <label for="alert-false">False</label><br>
+          <button type="submit" class="submit"> submit</button>
+      </form>
+  </div>
+
+  </form>
+</div>
+
+<div class="flashcard">
+
+  <div id="alert-question-front" class="panel question-front">
+     <h2>Question 15</h2>
+  </div>
+
+  <div id="question-15" class="panel question" >
+    <h4>A dialog boxes can be used to raise or get confirmation on any input or to have a kind of input from the users.</h4>
+      <h4>Is this an example of an Alert?</h4>
+        <form class="form" id="question-alert">
+          <input id="alert-true" type="radio" class="radio" name="alert" value="true"> <label for="alert-true" >True</label><br>
+          <input id="alert-false" type="radio" class="radio" name="alert" value="false"> <label for="alert-false">False</label><br>
+          <button type="submit" class="submit"> submit</button>
+      </form>
+  </div>
+
+  </form>
+</div>
+
+<div class="flashcard">
+
+  <div id="alert-question-front" class="panel question-front">
+     <h2>Question 16</h2>
+  </div>
+
+  <div id="question-16" class="panel question" >
+    <h4>A dialog boxes can be used to raise or get confirmation on any input or to have a kind of input from the users.</h4>
+      <h4>Is this an example of an Alert?</h4>
+        <form class="form" id="question-alert">
+          <input id="alert-true" type="radio" class="radio" name="alert" value="true"> <label for="alert-true" >True</label><br>
+          <input id="alert-false" type="radio" class="radio" name="alert" value="false"> <label for="alert-false">False</label><br>
+          <button type="submit" class="submit"> submit</button>
+      </form>
+  </div>
+
+  </form>
+</div>
+
+<div class="flashcard">
+
+  <div id="alert-question-front" class="panel question-front">
+     <h2>Question 17</h2>
+  </div>
+
+  <div id="question-17" class="panel question" >
+    <h4>A dialog boxes can be used to raise or get confirmation on any input or to have a kind of input from the users.</h4>
+      <h4>Is this an example of an Alert?</h4>
+        <form class="form" id="question-alert">
+          <input id="alert-true" type="radio" class="radio" name="alert" value="true"> <label for="alert-true" >True</label><br>
+          <input id="alert-false" type="radio" class="radio" name="alert" value="false"> <label for="alert-false">False</label><br>
+          <button type="submit" class="submit"> submit</button>
+      </form>
+  </div>
+
+  </form>
+</div>
+
+<div class="flashcard">
+
+  <div id="alert-question-front" class="panel question-front">
+     <h2>Question 18</h2>
+  </div>
+
+  <div id="question-18" class="panel question" >
+    <h4>A dialog boxes can be used to raise or get confirmation on any input or to have a kind of input from the users.</h4>
+      <h4>Is this an example of an Alert?</h4>
+        <form class="form" id="question-alert">
+          <input id="alert-true" type="radio" class="radio" name="alert" value="true"> <label for="alert-true" >True</label><br>
+          <input id="alert-false" type="radio" class="radio" name="alert" value="false"> <label for="alert-false">False</label><br>
+          <button type="submit" class="submit"> submit</button>
+      </form>
+  </div>
+
+  </form>
+</div>
+
+<div class="flashcard">
+
+  <div id="alert-question-front" class="panel question-front">
+     <h2>Question 19</h2>
+  </div>
+
+  <div id="question-19" class="panel question" >
+    <p>A dialog boxes can be used to raise or get confirmation on any input or to have a kind of input from the users.</p>
+      <p>Is this an example of an Alert?</p>
+        <form class="form" id="question-alert">
+          <input id="alert-true" type="radio" class="radio" name="alert" value="true"> <label for="alert-true" >True</label><br>
+          <input id="alert-false" type="radio" class="radio" name="alert" value="false"> <label for="alert-false">False</label><br>
+          <button type="submit" class="submit"> submit</button>
+      </form>
+  </div>
+
+  </form>
+</div>
+
+<div class="flashcard">
+
+  <div id="alert-question-front" class="panel question-front">
+     <h2>Question 20</h2>
+  </div>
+
+  <div id="question-p" class="panel question" >
+    <h4>A dialog boxes can be used to raise or get confirmation on any input or to have a kind of input from the users.</h4>
+      <h4>Is this an example of an Alert?</h4>
+        <form class="form" id="question-alert">
+          <input id="alert-true" type="radio" class="radio" name="alert" value="true"> <label for="alert-true" >True</label><br>
+          <input id="alert-false" type="radio" class="radio" name="alert" value="false"> <label for="alert-false">False</label><br>
+          <button type="submit" class="submit"> submit</button>
+      </form>
+  </div>
+
+  </form>
+</div>
+
+
+        <!-- ********* ARGUMENTS *********** -->
+
+        <div class="flashcard">
+
+          <div class="panel question-front">
+            <h2>Question 2</h2>
+            <!-- <h2>Argument</h2> -->
+            <!-- <h4>Values passed to the function when it is invoked.</h4>
+            <h4>Is this an example of an Argument?</h4>
+            <input type="radio" class = "radio" name="true" value="true"> True<br>
+            <input type="radio" class = "radio" name="false" value="false"> False<br> -->
+          </div>
+
+          <div class="panel definition">
+            <div class="panel-heading">
+              <h3>Arguments</h3>
+            </div>
+            <div class="panel-body">
+              {{ Definition1 }}
+            </div>
+          </div>
+        </div>
+
+        <!-- ********* ATTRIBUTES *********** -->
+        <div class="flashcard">
+
+          <div class="panel question-front">
+            <h2>Attributes</h2>
+          </div>
+
+          <div class="panel definition">
+            <div class="panel-heading">
+              <h3>Attributes</h3>
+            </div>
+            <div class="panel-body">
+              {{ Definition1 }}
+            </div>
+          </div>
+
+        </div>
+
+        <!-- ********* BOOLEANS *********** -->
+        <div class="flashcard">
+          <div class="panel question-front">
+            <h4>Booleans</h4>
+            <h4>Boolean object represents two values, either "true" or "false".</h4>
+            <input type="radio" class = "radio" name="true" value="true"> True<br>
+            <input type="radio" class = "radio" name="false" value="false"> False<br>
+          </div>
+
+          <div class="panel definition">
+            <div class="panel-heading">
+              <h3>Booleans</h3>
+            </div>
+            <div class="panel-body">
+              {{ Definition1 }}
+            </div>
+          </div>
+        </div>
+
+        <!-- ********* CHAINING METHODS *********** -->
+        <div class="flashcard">
+          <div class="panel question-front">
+            <h2>Chaining Methods</h2>
+          </div>
+
+          <div class="panel definition">
+            <div class="panel-heading">
+              <h3>Chaining Methods</h3>
+            </div>
+            <div class="panel-body">
+              {{ Definition1 }}
+            </div>
+          </div>
+        </div>
+
+        <!-- ********* COMMENTS *********** -->
+        <div class="flashcard">
+          <div class="panel question-front">
+            <h2>Comments</h2>
+          </div>
+
+          <div class="panel definition">
+            <div class="panel-heading">
+              <h3>Comments</h3>
+            </div>
+            <div class="panel-body">
+              {{ Definition1 }}
+            </div>
+          </div>
+        </div>
+
+        <!-- ********* ESCAPE *********** -->
+        <div class="flashcard">
+          <div class="panel question-front">
+            <h2>Escape</h2>
+          </div>
+
+          <div class="panel definition">
+            <div class="panel-heading">
+              <h3>Escape</h3>
+            </div>
+            <div class="panel-body">
+              {{ Definition1 }}
+            </div>
+          </div>
+        </div>
+
+        <!-- ********* FUNCTIONS *********** -->
+        <div class="flashcard">
+          <div class="panel question-front">
+            <h2>Functions</h2>
+          </div>
+
+          <div class="panel definition">
+            <div class="panel-heading">
+              <h3>Functions</h3>
+            </div>
+            <div class="panel-body">
+              {{ Definition1 }}
+            </div>
+          </div>
+        </div>
+
+        <!-- ********* JAVASCRIPT (JS) *********** -->
+        <div class="flashcard">
+          <div class="panel question-front">
+            <h2>JavaScript (JS)</h2>
+          </div>
+
+          <div class="panel definition">
+            <div class="panel-heading">
+              <h3>JavaScript (JS)</h3>
+            </div>
+            <div class="panel-body">
+              {{ Definition1 }}
+            </div>
+          </div>
+        </div>
+
+        <!-- ********* JQUERY *********** -->
+        <div class="flashcard">
+          <div class="panel question-front">
+            <h2>jQuery</h2>
+          </div>
+
+          <div class="panel definition">
+            <div class="panel-heading">
+              <h3>jQuery</h3>
+            </div>
+            <div class="panel-body">
+              {{ Definition1 }}
+            </div>
+          </div>
+        </div>
+
+        <!-- ********* METHODS *********** -->
+        <div class="flashcard">
+          <div class="panel question-front">
+            <h2>Methods</h2>
+          </div>
+
+          <div class="panel definition">
+            <div class="panel-heading">
+              <h3>Methods</h3>
+            </div>
+            <div class="panel-body">
+              {{ Definition1 }}
+            </div>
+          </div>
+        </div>
+
+        <!-- ********* NAN *********** -->
+        <div class="flashcard">
+          <div class="panel question-front">
+            <h2>NaN</h2>
+          </div>
+
+          <div class="panel definition">
+            <div class="panel-heading">
+              <h3>NaN</h3>
+            </div>
+            <div class="panel-body">
+              {{ Definition1 }}
+            </div>
+          </div>
+        </div>
+
+        <!-- ********* OPERATORS *********** -->
+        <div class="flashcard">
+          <div class="panel question-front">
+            <h2>Operators</h2>
+          </div>
+
+          <div class="panel definition">
+            <div class="panel-heading">
+              <h3>Operators</h3>
+            </div>
+            <div class="panel-body">
+              {{ Definition1 }}
+            </div>
+          </div>
+        </div>
+
+        <!-- ********* PARAMETERS *********** -->
+        <div class="flashcard">
+          <div class="panel question-front">
+            <h2>Parameters</h2>
+          </div>
+
+          <div class="panel definition">
+            <div class="panel-heading">
+              <h3>Parameters</h3>
+            </div>
+            <div class="panel-body">
+              {{ Definition1 }}
+            </div>
+          </div>
+        </div>
+
+        <!-- ********* RETURN *********** -->
+        <div class="flashcard">
+          <div class="panel question-front">
+            <h2>Return</h2>
+          </div>
+
+          <div class="panel definition">
+            <div class="panel-heading">
+              <h3>Return</h3>
+            </div>
+            <div class="panel-body">
+              {{ Definition1 }}
+            </div>
+          </div>
+        </div>
+
+        <!-- ********* STRINGS *********** -->
+        <div class="flashcard">
+          <div class="panel question-front">
+            <h2>Strings</h2>
+          </div>
+
+          <div class="panel definition">
+            <div class="panel-heading">
+              <h3>Strings</h3>
+            </div>
+            <div class="panel-body">
+              {{ Definition1 }}
+            </div>
+          </div>
+        </div>
+
+        <!-- ********* UNDEFINED *********** -->
+        <div class="flashcard">
+          <div class="panel question-front">
+            <h2>Undefined</h2>
+          </div>
+
+          <div class="panel definition">
+            <div class="panel-heading">
+              <h3>Undefined</h3>
+            </div>
+            <div class="panel-body">
+              {{ Definition1 }}
+            </div>
+          </div>
+        </div>
+
+        <!-- ********* VARIABLE NAMING CONVENTIONS *********** -->
+        <div class="flashcard">
+          <div class="panel question-front">
+            <h2>Variable naming conventions</h2>
+          </div>
+
+          <div class="panel definition">
+            <div class="panel-heading">
+              <h3>Variable naming conventions</h3>
+            </div>
+            <div class="panel-body">
+              {{ Definition1 }}
+            </div>
+          </div>
+        </div>
+
+        <!-- ********* VARIABLES *********** -->
+        <div class="flashcard">
+          <div class="panel question-front">
+            <h2>Variables</h2>
+          </div>
+
+          <div class="panel definition">
+            <div class="panel-heading">
+              <h3>Variables</h3>
+            </div>
+            <div class="panel-body">
+              {{ Definition1 }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+        <!-- <script type="text/javascript">
+          var card = document.querySelector('div#flashcard-content');
+          console.log(card);
+        </script> -->
+
+  </body>
 </html>
